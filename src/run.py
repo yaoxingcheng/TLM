@@ -310,8 +310,9 @@ def get_external_dataset(args):
                 extension = "text"
         raw_datasets = load_dataset(extension, data_files=data_files)
     else:
-        data_files["train"] = args.external_dataset_name
-        raw_datasets = load_dataset(f"yxchar/{args.task_name}-tlm", data_files=data_files)
+        base_url = f"https://huggingface.co/datasets/yxchar/{args.task_name}-tlm/resolve/main/"
+        data_files["train"] = base_url + args.external_dataset_name
+        raw_datasets = load_dataset("csv", data_files=data_files)
     return raw_datasets
 
 def preprocess_external(args, raw_datasets, tokenizer, logger):
@@ -348,6 +349,7 @@ def preprocess_external(args, raw_datasets, tokenizer, logger):
     return tokenized_datasets["train"], text_column_name
 
 def get_dataset(args):
+
     if args.dataset_dir is not None:
         task_dir = os.path.join(args.dataset_dir, args.task_name)
         data_files = {
@@ -357,12 +359,13 @@ def get_dataset(args):
         }
         raw_datasets = load_dataset("csv", data_files=data_files)
     else:
+        base_url = f"https://huggingface.co/datasets/yxchar/{args.task_name}-tlm/resolve/main/"
         data_files = {
-            "train": "train.csv",
-            "dev": "dev.csv",
-            "test": "test.csv",
+            "train": base_url + "train.csv",
+            "dev": base_url + "dev.csv",
+            "test": base_url + "test.csv",
         }
-        raw_datasets = load_dataset(f"yxchar/{args.task_name}-tlm", data_files=data_files)
+        raw_datasets = load_dataset("csv", data_files=data_files)
     num_labels = dapt_tasks[args.task_name]
     label_list = list(range(num_labels))
     return raw_datasets, label_list, num_labels
