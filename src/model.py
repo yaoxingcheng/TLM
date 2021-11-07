@@ -110,7 +110,7 @@ class BertForMaskedLM(BertPreTrainedModel):
         else:
             mlm_weight = self.args.mlm_weight
 
-        loss = (mlm_loss * self.args.mlm_weight + cls_loss * cls_weight) / (mlm_weight + cls_weight)
+        loss = (mlm_loss * mlm_weight + cls_loss * cls_weight) / (mlm_weight + cls_weight)
         
         return MaskedLMOutput(
             loss=loss,
