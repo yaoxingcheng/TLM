@@ -1,5 +1,5 @@
 ## NLP From Scratch Without Large-Scale Pretraining
-This repository contains the code, pre-trained model checkpoints and curated datasets for our paper: [NLP From Scratch Without Large-Scale Pretraining: A Simple and Efficient Framework](https://yaoxingcheng.github.io/thesis/tlm-view.pdf). 
+This repository contains the code, pre-trained model checkpoints and curated datasets for our paper: [NLP From Scratch Without Large-Scale Pretraining: A Simple and Efficient Framework](https://arxiv.org/abs/2111.04130). 
 
 In our proposed framework, named ***TLM*** (task-driven language modeling), instead of training a language model over the entire general corpus and then finetuning it on task data, we first usetask data as queries to retrieve a tiny subset of the general corpus, and then perform joint learning on both the task objective and self-supervised language modeling objective. 
 ![](./fig/framework.png)
