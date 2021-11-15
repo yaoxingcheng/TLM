@@ -235,6 +235,8 @@ class Trainer:
         self.completed_steps = 0
         self.pre_completed_steps = 0
         self._prepare_from_checkpoint()
+        tr_loss = 0.0
+        loss_step = 0
         for step in range(self.args.max_train_steps):
             if self.completed_steps < self.pre_completed_steps:
                 self._get_batch(self.args.external_ratio)
