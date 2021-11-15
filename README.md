@@ -34,6 +34,16 @@ bash example_scripts/train.sh && bash example_scripts/finetune.sh
 ```
 Here `example_scripts/train.sh` corresponds to the first stage training where the external data ratio and MLM weight are non-zero, and `example_scripts/finetune.sh` corresponds to the second training stage where no external data or self-supervised loss can be perceived by the model. 
 
+### Select data from your own corpora and tasks
+
+In this work, we use BM25 to select similar data from a general corpus. We provide a python script in `src/data_selection.py` to perform data selection from a source dataset with queries from a target dataset. 
+
+To select data with the provided scripts, first download, install and start [ElasticSearch](https://www.elastic.co/cn/elasticsearch/) by the default settings, then you can run
+```
+bash example_scripts/data_selection.sh
+```
+The above script retrieves sequences from an example source corpus which are similar to an example task dataset. Feel free to build inverted indices for your own corpus and select data for your own tasks.
+
 ### Citation
 Please cite our paper if you use TLM in your work:
 ```bibtex

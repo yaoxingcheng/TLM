@@ -1,0 +1,33 @@
+text,id
+"The agreement in question involves number in [[ nouns ]] and << reflexive pronouns >> and is syntactic rather than semantic in nature because grammatical number in English , like grammatical gender in languages such as French , is partly arbitrary .",0
+"The agreement in question involves number in nouns and reflexive pronouns and is syntactic rather than semantic in nature because grammatical number in English , like [[ grammatical gender ]] in << languages >> such as French , is partly arbitrary .",1
+"The agreement in question involves number in nouns and reflexive pronouns and is syntactic rather than semantic in nature because grammatical number in English , like grammatical gender in << languages >> such as [[ French ]] , is partly arbitrary .",2
+"In this paper , a novel [[ method ]] to learn the << intrinsic object structure >> for robust visual tracking is proposed .",3
+"In this paper , a novel method to learn the [[ intrinsic object structure ]] for << robust visual tracking >> is proposed .",4
+The basic assumption is that the << parameterized object state >> lies on a [[ low dimensional manifold ]] and can be learned from training data .,5
+"Based on this assumption , firstly we derived the [[ dimensionality reduction and density estimation algorithm ]] for << unsupervised learning of object intrinsic representation >> , the obtained non-rigid part of object state reduces even to 2 dimensions .",6
+Secondly the << dynamical model >> is derived and trained based on this [[ intrinsic representation ]] .,7
+Thirdly the learned [[ intrinsic object structure ]] is integrated into a << particle-filter style tracker >> .,8
+We will show that this intrinsic object representation has some interesting properties and based on which the newly derived [[ dynamical model ]] makes << particle-filter style tracker >> more robust and reliable .,9
+Experiments show that the learned [[ tracker ]] performs much better than existing << trackers >> on the tracking of complex non-rigid motions such as fish twisting with self-occlusion and large inter-frame lip motion .,10
+Experiments show that the learned [[ tracker ]] performs much better than existing trackers on the << tracking of complex non-rigid motions >> such as fish twisting with self-occlusion and large inter-frame lip motion .,11
+Experiments show that the learned tracker performs much better than existing [[ trackers ]] on the << tracking of complex non-rigid motions >> such as fish twisting with self-occlusion and large inter-frame lip motion .,12
+Experiments show that the learned tracker performs much better than existing trackers on the tracking of << complex non-rigid motions >> such as [[ fish twisting ]] with self-occlusion and large inter-frame lip motion .,13
+Experiments show that the learned tracker performs much better than existing trackers on the tracking of complex non-rigid motions such as << fish twisting >> with [[ self-occlusion ]] and large inter-frame lip motion .,14
+Experiments show that the learned tracker performs much better than existing trackers on the tracking of complex non-rigid motions such as fish twisting with [[ self-occlusion ]] and large << inter-frame lip motion >> .,15
+Experiments show that the learned tracker performs much better than existing trackers on the tracking of complex non-rigid motions such as << fish twisting >> with self-occlusion and large [[ inter-frame lip motion ]] .,16
+The proposed [[ method ]] also has the potential to solve other type of << tracking problems >> .,17
+"In this paper , we present a [[ digital signal processor -LRB- DSP -RRB- implementation ]] of << real-time statistical voice conversion -LRB- VC -RRB- >> for silent speech enhancement and electrolaryngeal speech enhancement .",18
+"In this paper , we present a digital signal processor -LRB- DSP -RRB- implementation of [[ real-time statistical voice conversion -LRB- VC -RRB- ]] for << silent speech enhancement >> and electrolaryngeal speech enhancement .",19
+"In this paper , we present a digital signal processor -LRB- DSP -RRB- implementation of [[ real-time statistical voice conversion -LRB- VC -RRB- ]] for silent speech enhancement and << electrolaryngeal speech enhancement >> .",20
+"In this paper , we present a digital signal processor -LRB- DSP -RRB- implementation of real-time statistical voice conversion -LRB- VC -RRB- for [[ silent speech enhancement ]] and << electrolaryngeal speech enhancement >> .",21
+[[ Electrolaryngeal speech ]] is one of the typical types of << alaryngeal speech >> produced by an alternative speaking method for laryngectomees .,22
+Electrolaryngeal speech is one of the typical types of << alaryngeal speech >> produced by an alternative [[ speaking method ]] for laryngectomees .,23
+Electrolaryngeal speech is one of the typical types of alaryngeal speech produced by an alternative [[ speaking method ]] for << laryngectomees >> .,24
+"However , the [[ sound quality ]] of << NAM and electrolaryngeal speech >> suffers from lack of naturalness .",25
+"VC has proven to be one of the promising approaches to address this problem , and << it >> has been successfully implemented on [[ devices ]] with sufficient computational resources .",26
+"VC has proven to be one of the promising approaches to address this problem , and it has been successfully implemented on << devices >> with [[ sufficient computational resources ]] .",27
+An implementation on << devices >> that are highly portable but have [[ limited computational resources ]] would greatly contribute to its practical use .,28
+In this paper we further implement << real-time VC >> on a [[ DSP ]] .,29
+"To implement the two << speech enhancement systems >> based on [[ real-time VC ]] , one from NAM to a whispered voice and the other from electrolaryngeal speech to a natural voice , we propose several methods for reducing computational cost while preserving conversion accuracy .",30
+"To implement the two << speech enhancement systems >> based on real-time VC , [[ one ]] from NAM to a whispered voice and the other from electrolaryngeal speech to a natural voice , we propose several methods for reducing computational cost while preserving conversion accuracy .",31
