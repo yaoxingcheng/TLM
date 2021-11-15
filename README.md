@@ -28,11 +28,11 @@ To get the evaluation results for SciERC with a small-scale model.
 
 ### Training
 
-We provide two example scripts to train a model from scratch, run
+We provide two example scripts to train a model from scratch. To train a small-scale model for SciERC, run
 ```
 bash example_scripts/train.sh && bash example_scripts/finetune.sh
 ```
-To train a small-scale model for SciERC. Here `example_scripts/train.sh` corresponds to the first stage training where the external data ratio and MLM weight are non-zero, and `example_scripts/finetune.sh` corresponds to the second training stage where no external data or self-supervised loss can be perceived by the model. 
+Here `example_scripts/train.sh` corresponds to the first stage training where the external data ratio and MLM weight are non-zero, and `example_scripts/finetune.sh` corresponds to the second training stage where no external data or self-supervised loss can be perceived by the model. 
 
 ### Citation
 Please cite our paper if you use TLM in your work:
