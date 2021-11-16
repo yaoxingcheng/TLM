@@ -9,7 +9,7 @@ We implement our models and training loops based on the opensource products from
 ```
 pip install -r requirements.txt
 ```
-All our experiments are conducted on a node with 8 [A100 40GB SXM](https://www.nvidia.cn/data-center/a100/) gpus. Different computational devices may result slightly different results from the reported ones.
+All our experiments are conducted on a node with 8 [A100 40GB SXM](https://www.nvidia.cn/data-center/a100/) gpus. Different computational devices may result in slightly different results from the reported ones.
 
 ### Models and Datasets
 
