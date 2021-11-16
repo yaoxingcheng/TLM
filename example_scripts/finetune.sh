@@ -25,7 +25,7 @@ accelerate launch --config_file ./accelerate_config/example_dist_config.yaml src
     --max_ckpts_to_keep 3 \
     --max_length $MAXLEN \
     --pad_to_max_length \
-    --config_dir ./models/$TASK-$SCALE-scale \
+    --config_dir yxchar/tlm-${TASK}-${SCALE}-scale \
     --model_name_or_path $OUTPUT_DIR/$SAVENAME/final \
     --output_dir $OUTPUT_DIR/ft-$SAVENAME \
     --per_device_train_batch_size 4 \
