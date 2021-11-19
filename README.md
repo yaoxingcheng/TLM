@@ -39,7 +39,7 @@ Here `example_scripts/train.sh` corresponds to the first stage training where th
 #### Retrieve data from our collected corpora
 In this work, we use BM25 to select similar data from a general corpus. Two scales of corpora are collected: one consisting of [Wikipedia dump](https://dumps.wikimedia.org/enwiki/) and [Book corpus](https://github.com/soskek/bookcorpus), the other consisting of the aforementioned two together with [OpenWebText](https://huggingface.co/datasets/openwebtext), [CCNews](https://cloudstor.aarnet.edu.au/plus/s/M8BvXxe6faLZ4uE) and [CC-Stories](https://paperswithcode.com/dataset/cc-stories). 
 
-We provide a Web API to facilitate your research process. An example script to retrieve similar data from our collected corpora with a certain query is:
+We provide a Web API for data selection to facilitate your research process. An example script to retrieve similar data from our collected corpora with a certain query is:
 ```
 curl -H "Content-Type:application/json" \
      -X POST \
@@ -55,7 +55,7 @@ As you can see, by now the url of our service is `https://2377-58-246-142-34.ngr
 Note that you may suffer from longer latency and even a potential risk of timeout with larger index, longer query, larger `k` and brutal query strategy.
 
 #### Select data from your own corpora by your own tasks
-We also provide a python script in `src/data_selection.py` to perform data selection from a source dataset with queries from a target dataset. 
+We also provide a python script in `src/data_selection.py` to perform data selection from a customied source dataset with queries from a customied target dataset. 
 
 To select data with the provided scripts, first download, install and start [ElasticSearch](https://www.elastic.co/cn/elasticsearch/) by the default settings, then you can run
 ```
