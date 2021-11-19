@@ -50,7 +50,7 @@ As you can see, by now the url of our service is `https://2377-58-246-142-34.ngr
 - `index_name`: The name of the index to retrieve from, which can be chosen from `index_128`, `index_512`, `full_index_128` and `full_index_512`. Here the index names with prefix `full_` indicate the index contains all 5 sub-corpora, whereas others indicate the index only contains Wikipedia and Book corpus. The sufix of each index means the maximum length of each document in the index, in terms of number of tokens.
 - `query`: The query text you would like to match to the documents.
 - `k`: The number of most similar documents you would like to retrieve.
-- `query_strategy`: Chosen from `rake` or `full`. `rake` means extracting the key phrases from the raw query with [*Rapid Automatic Keyword Extraction*](https://github.com/csurfer/rake-nltk) algorithm, and only retrieve documents from the key phrases; `full` means retrieve similar documents with the full raw query.
+- `query_strategy`: Chosen from `rake` or `full`. `rake` means extracting the key phrases from the raw query with [*Rapid Automatic Keyword Extraction*](https://github.com/csurfer/rake-nltk) algorithm, and only retrieve documents by the key phrases; `full` means retrieve similar documents with the full raw query.
 
 Note that you may suffer from longer latency and even a potential risk of timeout with larger index, longer query, larger `k` and brutal query strategy.
 
