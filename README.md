@@ -55,7 +55,7 @@ As you can see, by now the url of our service is `https://2377-58-246-142-34.ngr
 Note that you may suffer from longer latency and even a potential risk of timeout with larger index, longer query, larger `k` and brutal query strategy.
 
 #### Select data from your own corpora by your own tasks
-We also provide a python script in `src/data_selection.py` to perform data selection from a customied source dataset with queries from a customied target dataset. 
+We also provide a python script in `src/data_selection.py` to perform data selection from a customized source dataset with queries from a customized target dataset. 
 
 To select data with the provided scripts, first download, install and start [ElasticSearch](https://www.elastic.co/cn/elasticsearch/) by the default settings, then you can run
 ```
