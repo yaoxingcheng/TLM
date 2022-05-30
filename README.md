@@ -47,9 +47,10 @@ The above script retrieves sequences from an example source corpus which are sim
 ### Citation
 Please cite our paper if you use TLM in your work:
 ```bibtex
-@misc{yao2021tlm,
+@inproceedings{yao2021tlm,
 title={NLP From Scratch Without Large-Scale Pretraining: A Simple and Efficient Framework},
 author={Yao, Xingcheng and Zheng, Yanan and Yang, Xiaocong and Yang, Zhilin},
+booktitle={ICML},
 year={2021}
 }
 ```
