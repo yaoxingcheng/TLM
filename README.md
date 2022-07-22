@@ -47,10 +47,18 @@ The above script retrieves sequences from an example source corpus which are sim
 ### Citation
 Please cite our paper if you use TLM in your work:
 ```bibtex
-@inproceedings{yao2021tlm,
-title={NLP From Scratch Without Large-Scale Pretraining: A Simple and Efficient Framework},
-author={Yao, Xingcheng and Zheng, Yanan and Yang, Xiaocong and Yang, Zhilin},
-booktitle={ICML},
-year={2021}
+@InProceedings{pmlr-v162-yao22c,
+  title = 	 {{NLP} From Scratch Without Large-Scale Pretraining: A Simple and Efficient Framework},
+  author =       {Yao, Xingcheng and Zheng, Yanan and Yang, Xiaocong and Yang, Zhilin},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {25438--25451},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/yao22c/yao22c.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/yao22c.html},
 }
 ```
